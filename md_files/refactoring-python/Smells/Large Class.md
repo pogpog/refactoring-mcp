@@ -1,0 +1,27 @@
+---
+tags: [code-smells]
+date_created: 2026-05-20
+status: seed
+---
+
+# Large Class
+
+ 
+### Signs and Symptoms
+ A class contains many fields/methods/lines of code. ![image](#) 
+### Reasons for the Problem
+ Classes usually start small. But over time, they get bloated as the program grows. As is the case with long methods as well, programmers usually find it mentally less taxing to place a new feature in an existing class than to create a new class for the feature. ![image](#) 
+### Treatment
+ When a class is wearing too many (functional) hats, think about splitting it up: - [Extract Class](../Extract%20Class.md) helps if part of the behavior of the large class can be spun off into a separate component. - [Extract Subclass](../Extract%20Subclass.md) helps if part of the behavior of the large class can be implemented in different ways or is used in rare cases. - [Extract Interface](../Extract%20Interface.md) helps if it’s necessary to have a list of the operations and behaviors that the client can use. - If a large class is responsible for the graphical interface, you may try to move some of its data and behavior to a separate domain object. In doing so, it may be necessary to store copies of some data in two places and keep the data consistent. [Duplicate Observed Data](../Duplicate%20Observed%20Data.md) offers a way to do this. ![image](#) 
+### Payoff
+ - Refactoring of these classes spares developers from needing to remember a large number of attributes for a class. - In many cases, splitting large classes into parts avoids duplication of code and functionality. 
+
+## Related
+
+- [[Extract Class]]
+- [[Extract Subclass]]
+- [[Extract Interface]]
+- [[Duplicate Code]]
+- [[Divergent Change]]
+- [[Bloaters]]
+
