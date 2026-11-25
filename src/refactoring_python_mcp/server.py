@@ -1,5 +1,6 @@
 from mcp.server.fastmcp import FastMCP
-import indexer
+
+from . import indexer
 
 mcp = FastMCP("refactoring-python")
 
@@ -69,5 +70,10 @@ def list_refactoring_catalog(category: str = "all") -> str:
     return "\n".join(lines)
 
 
-if __name__ == "__main__":
+def main() -> None:
+    """Console-script entry point (see [project.scripts] in pyproject.toml)."""
     mcp.run()
+
+
+if __name__ == "__main__":
+    main()
