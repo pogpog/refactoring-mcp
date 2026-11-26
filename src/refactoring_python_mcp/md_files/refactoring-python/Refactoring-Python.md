@@ -4,7 +4,7 @@ date_created: 2026-05-21
 status: seed
 ---
 
-# Refactoring Guru Index
+# Refactoring Python Index
 
 ## Top Level
 
@@ -79,7 +79,7 @@ status: seed
 
 ## Design Patterns
 
-- [[Refactoring Guru/Design Patterns/Catalog|Catalog]]
+- [[refactoring-python/Design Patterns/Catalog|Catalog]]
 - [[What Is Pattern]]
 - [[Why Learn Patterns]]
 - [[Classification]]
@@ -114,28 +114,28 @@ status: seed
 
 ## Design Patterns — Python Examples
 
-- [[Refactoring Guru/Design Patterns/Abstract Factory/Python/Example|Abstract Factory — Example]]
-- [[Refactoring Guru/Design Patterns/Adapter/Python/Example|Adapter — Example]]
-- [[Refactoring Guru/Design Patterns/Bridge/Python/Example|Bridge — Example]]
-- [[Refactoring Guru/Design Patterns/Builder/Python/Example|Builder — Example]]
-- [[Refactoring Guru/Design Patterns/Chain Of Responsibility/Python/Example|Chain Of Responsibility — Example]]
-- [[Refactoring Guru/Design Patterns/Command/Python/Example|Command — Example]]
-- [[Refactoring Guru/Design Patterns/Composite/Python/Example|Composite — Example]]
-- [[Refactoring Guru/Design Patterns/Decorator/Python/Example|Decorator — Example]]
-- [[Refactoring Guru/Design Patterns/Facade/Python/Example|Facade — Example]]
-- [[Refactoring Guru/Design Patterns/Factory Method/Python/Example|Factory Method — Example]]
-- [[Refactoring Guru/Design Patterns/Flyweight/Python/Example|Flyweight — Example]]
-- [[Refactoring Guru/Design Patterns/Iterator/Python/Example|Iterator — Example]]
-- [[Refactoring Guru/Design Patterns/Mediator/Python/Example|Mediator — Example]]
-- [[Refactoring Guru/Design Patterns/Memento/Python/Example|Memento — Example]]
-- [[Refactoring Guru/Design Patterns/Observer/Python/Example|Observer — Example]]
-- [[Refactoring Guru/Design Patterns/Prototype/Python/Example|Prototype — Example]]
-- [[Refactoring Guru/Design Patterns/Proxy/Python/Example|Proxy — Example]]
-- [[Refactoring Guru/Design Patterns/Singleton/Python/Example|Singleton — Example]]
-- [[Refactoring Guru/Design Patterns/State/Python/Example|State — Example]]
-- [[Refactoring Guru/Design Patterns/Strategy/Python/Example|Strategy — Example]]
-- [[Refactoring Guru/Design Patterns/Template Method/Python/Example|Template Method — Example]]
-- [[Refactoring Guru/Design Patterns/Visitor/Python/Example|Visitor — Example]]
+- [[refactoring-python/Design Patterns/Abstract Factory/Python/Example|Abstract Factory — Example]]
+- [[refactoring-python/Design Patterns/Adapter/Python/Example|Adapter — Example]]
+- [[refactoring-python/Design Patterns/Bridge/Python/Example|Bridge — Example]]
+- [[refactoring-python/Design Patterns/Builder/Python/Example|Builder — Example]]
+- [[refactoring-python/Design Patterns/Chain Of Responsibility/Python/Example|Chain Of Responsibility — Example]]
+- [[refactoring-python/Design Patterns/Command/Python/Example|Command — Example]]
+- [[refactoring-python/Design Patterns/Composite/Python/Example|Composite — Example]]
+- [[refactoring-python/Design Patterns/Decorator/Python/Example|Decorator — Example]]
+- [[refactoring-python/Design Patterns/Facade/Python/Example|Facade — Example]]
+- [[refactoring-python/Design Patterns/Factory Method/Python/Example|Factory Method — Example]]
+- [[refactoring-python/Design Patterns/Flyweight/Python/Example|Flyweight — Example]]
+- [[refactoring-python/Design Patterns/Iterator/Python/Example|Iterator — Example]]
+- [[refactoring-python/Design Patterns/Mediator/Python/Example|Mediator — Example]]
+- [[refactoring-python/Design Patterns/Memento/Python/Example|Memento — Example]]
+- [[refactoring-python/Design Patterns/Observer/Python/Example|Observer — Example]]
+- [[refactoring-python/Design Patterns/Prototype/Python/Example|Prototype — Example]]
+- [[refactoring-python/Design Patterns/Proxy/Python/Example|Proxy — Example]]
+- [[refactoring-python/Design Patterns/Singleton/Python/Example|Singleton — Example]]
+- [[refactoring-python/Design Patterns/State/Python/Example|State — Example]]
+- [[refactoring-python/Design Patterns/Strategy/Python/Example|Strategy — Example]]
+- [[refactoring-python/Design Patterns/Template Method/Python/Example|Template Method — Example]]
+- [[refactoring-python/Design Patterns/Visitor/Python/Example|Visitor — Example]]
 
 ## Refactoring
 

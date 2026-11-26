@@ -204,12 +204,17 @@ def search(query: str, top_k: int = 5) -> list[dict]:
     return results
 
 
+def _normalize_name(name: str) -> str:
+    return name.lower().replace("-", " ").replace("_", " ")
+
+
 def get_page(name: str) -> str | None:
-    name_lower = name.lower().replace("-", " ").replace("_", " ")
+    # Normalise both sides, so "Refactoring Python" finds Refactoring-Python.md.
+    name_lower = _normalize_name(name)
     best_path = None
     best_score = 0.0
     for md_file in VAULT_DIR.rglob("*.md"):
-        stem_lower = md_file.stem.lower()
+        stem_lower = _normalize_name(md_file.stem)
         if name_lower == stem_lower:
             return md_file.read_text(encoding="utf-8")
         query_words = set(name_lower.split())

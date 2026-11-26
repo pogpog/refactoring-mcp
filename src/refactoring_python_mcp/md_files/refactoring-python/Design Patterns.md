@@ -36,7 +36,7 @@ Can patterns sometimes be harmful? [More about the criticism »](Design%20Patter
 ## Related
 
 - [[What Is Pattern]]
-- [[Refactoring Guru/Design Patterns/Catalog|Design Patterns Catalog]]
+- [[refactoring-python/Design Patterns/Catalog|Design Patterns Catalog]]
 - [[Why Learn Patterns]]
 - [[Classification]]
 - [[History]]
